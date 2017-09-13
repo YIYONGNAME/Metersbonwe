@@ -1,0 +1,412 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, a{ margin:0; padding:0; }
+fieldset, img { border:none; }
+img{display: block;}
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+ul, ol { list-style:none;} 
+a{ text-decoration: none;}
+.box{width: 1200px; /*height: 850px;*/ margin: 0 auto;margin-bottom: 50px;}
+.nav{
+	width: 1200px;
+	height: 120px;
+	position: relative;
+	margin-bottom: 0px;
+}
+.nav img{
+	width: 266px;
+	height: 73px;
+}
+.nav .span{
+	width: 400px;
+	height: 30px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	background: url(shopimg/Veo_mbshop_spirit_pic.png) repeat 20px -1576px;
+}
+/*//main*/
+.main{
+	width: 1200px;
+	position: relative;
+}
+.main .p1{
+	width: 1200px;
+	height: 42px;
+	margin-top: 18px;
+	line-height: 42px;
+	font-size: 22px;
+	font-weight: 800px;
+	
+}
+.main .p1 .uu{
+	font-size: 14px;
+	line-height: 42px;
+	position: absolute;
+	right: 10px;
+	color: red;
+	
+}
+.main ol{
+	width: 1200px;
+	height: 40px;
+	background: #f8f7f7;
+	overflow: hidden;
+}
+.main ol li{
+	float: left;
+	font-size: 12px;
+	line-height: 40px;
+}
+.main .goods{
+	width: 1200px;
+	
+}
+.main .goods #former{
+	width: 480px;
+	height: 100px;
+	overflow: hidden;
+	margin-left: 400px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	/*display: none;*/
+}
+.main .goods dl dt{
+	width: 79px;
+	height: 79px;
+	background: url(shopimg/Veo_mbshop_spirit_pic.png) 0px -460px;
+	padding-top:10px ;
+	float: left;
+}
+.main .goods dl dd{
+	width: 380px;
+	height: 100px;
+	float: left;
+	margin-left: 15px;
+}
+.main .goods dl dd h4{
+	margin-top: 10px;
+	height: 20px;
+	line-height: 20px;
+}
+.main .goods dl dd p{
+	margin-top: 15px;
+	width: 320px;
+	height: 40px;
+	font-size: 12px;
+	line-height: 26px;
+}
+.main .goods dl dd p a{
+	color: red;
+}
+/*页面有商品是的内容样式*/
+.main .firstone{
+	width: 1200px;
+	height: 41px;
+	border: 1px solid #999999;
+	border-bottom: none;
+	line-height: 41px;
+	margin-top: 15px;
+	display: none;
+}
+.main .firstone b{
+	font-size: 14px;
+	font-weight: 100;	
+	margin-left: 1050px;
+}
+.main .goodsnow{
+	width: 1200px;
+	border: 1px solid #999999;
+	border-bottom: none;
+}
+
+.main .goodsnow .goodsone{
+	width: 1200px;
+	height: 80px;
+	padding: 20px 0;
+	border-bottom: 1px solid #999999;
+	overflow: hidden;
+	
+}
+.main .goodsnow .goodsone li{
+	float: left;
+}
+.main .goodsnow .goodsone li:nth-child(1){
+	margin-left: 0px;
+	width: 38px; 
+	height: 80px; 
+	text-align: center;
+}
+
+.main .goodsnow .goodsone li:nth-child(2){
+	width: 78px;
+	height: 80px;
+}
+.main .goodsnow .goodsone li:nth-child(2) img{
+	width: 78px;
+	height: 78px;
+	margin-top: 0px;
+}
+.main .goodsnow .goodsone li:nth-child(3){
+	width: 220px;
+	height: 80px;
+	margin-left: 10px;
+}
+.main .goodsnow .goodsone li:nth-child(3) p{
+	height: 40px;
+	width: 160px;
+	font-size:12px;
+	line-height: 20px;
+}
+.main .goodsnow .goodsone li:nth-child(3) i{
+	font-style: normal;
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+}
+.main .goodsnow .goodsone li:nth-child(3) img{
+	width: 230px;
+	height: 20px;
+}
+.main .goodsnow .goodsone li:nth-child(4){
+	width:100px;
+	height: 80px;
+	margin-left: 40px;
+}
+.main .goodsnow .goodsone li:nth-child(4) p{
+	font-size: 12px;
+}
+.main .goodsnow .goodsone li:nth-child(5){
+	width: 100px;
+	height: 80px;
+	margin-left: 90px;
+}
+.main .goodsnow .goodsone li:nth-child(5) del{
+	color: #999999;
+}
+.main .goodsnow .goodsone li:nth-child(5) strong{
+	margin-top: 5px;
+}
+.main .goodsnow .goodsone li:nth-child(5) #xiug{
+	width: 75px;
+	height: 28px;
+	margin-left: 5px;
+	box-sizing: border-box;
+	border: 1px solid #999999;
+	font-size:12px;
+	line-height: 28px;
+	padding-left: 10px;
+	position: relative;
+}
+.main .goodsnow .goodsone li:nth-child(5) #xiug span{
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 16px;
+	height: 26px;
+	background: url(shopimg/Veo_mbshop_spirit_pic.png) no-repeat 0px -250px;
+}
+.main .goodsnow .goodsone li:nth-child(5) .bsy{
+	width: 120px;
+	height: 30px;
+	border: 1px solid #999999;
+	line-height: 30px;
+	text-align: center;
+	position: relative;
+	left: 5px;
+	display: none;
+}
+
+.main .goodsnow .goodsone li:nth-child(6){
+	width: 100px;
+	height: 80px;
+	margin-left: 70px;
+}
+.main .goodsnow .goodsone li:nth-child(6)>span{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #999999;
+	line-height: 15px;
+	text-align: center;
+	cursor: pointer;
+}
+/*.main .goodsnow .goodsone li:nth-child(6) #btnleft{
+	display: inline-block;
+	width: 15px;
+	height:15px;
+	border: 1px solid #999999;
+	line-height: 15px;
+	text-align: center;
+}*/
+.main .goodsnow .goodsone li:nth-child(6) #txt{
+	display: inline-block;
+	width: 30px;
+	height: 15px;
+	border: 1px solid #999999;
+	
+}
+
+.main .goodsnow .goodsone li:nth-child(7){
+	width: 100px;
+	height: 80px;
+	margin-left: 110px;
+	font-size: 12px;
+	font-weight: 800;
+	color: red;
+}
+.main .goodsnow .goodsone li:nth-child(8){
+	width: 80px;
+	height: 80px;
+	margin-left: 30px;
+	font-size: 12px;
+}
+.main .goodsnow .goodsone li:nth-child(8) #btn1{
+	display: block;
+	text-align: right;
+}
+.main .goodsnow .goodsone li:nth-child(8) #btn2{
+	display: block;
+	margin-top: 5px;
+	text-align: right;
+	color: #333333;
+}
+
+/*最下面的一行*/
+.main .goodslast{
+	width: 1200px;
+	height: 60px;
+	margin: 20px 0;
+	overflow: hidden;
+	display: none;
+}
+.main .goodslast .goodslastone{
+	width: 1050px;
+	height: 60px;
+	display: inline-block;
+	float: left;
+	position: relative;
+}
+.main .goodslast .goodslastone input{
+	position: absolute;
+	top: 21px;
+}
+.main .goodslast .goodslastone .p11{
+	line-height: 60px;
+	font-size: 14px;
+	margin-left: 20px;
+}
+.main .goodslast .goodslastone i{
+	font-style: normal;
+	font-size: 14px;
+}
+.main .goodslast .goodslastone .i1{
+	margin-left: 10px;
+}
+.main .goodslast .goodslastone .i2{
+	margin-left: 10px;
+}
+.main .goodslast .goodslastone .i3{
+	margin-left:300px;
+}
+.main .goodslast .goodslastone .i3 span{
+	font-size: 24px;
+	color: red;
+	margin: 5px 0;
+}
+.main .goodslast .goodslastone .i4{
+	margin-left: 10px;
+}
+.main .goodslast .goodslastone .i5{
+	margin-left: 10px;
+}
+.main .goodslast .goodslastone .i5 span{
+	font-size: 24px;
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+.main .goodslast #qjs{
+	width: 144px;
+	height: 60px;
+	background: red;
+	color: #ffffff;
+	float: right;
+	text-align: center;
+	line-height: 60px;
+	font-size: 20px;
+	font-weight: 800;
+}
+
+
+
+
+
+.main .navcenter{
+	width: 1200px;
+	height:40px;
+	border-bottom: 2px solid #696969;
+}
+.main .navcenter li{
+	float: left;
+	font-size:12px;
+	line-height: 40px;
+	text-align: center;
+}
+.main .mail2{
+	width: 1300px;
+	height: 290px;
+	margin-top: 20px;
+}
+.main .mail2 ul li{
+	float: left;
+	width: 228px;
+	height: 290px;
+	margin-right: 15px;
+}
+.main .mail2 ul li .one{
+	width: 228px;
+	height: 228px;
+	
+}
+.main .mail2 ul li .two{
+	width: 228px;
+	height: 23px;
+	margin-top: 5px;
+	line-height: 23px;
+	font-size: 12px;
+	font-weight: 800;
+}
+.main .mail2 ul li .three{
+	width: 228px;
+	height: 26px;
+	margin-top: 5px;
+	font-size: 14px;
+	line-height: 26px;
+	position: relative;
+}
+.main .mail2 ul li .three del{
+	font-size: 12px;
+}
+.main .mail2 ul li .three a{
+	display: block;
+	width: 74px;
+	height: 26px;
+	box-sizing: border-box;
+	border: 1px solid #999999;
+	border-radius: 5px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}

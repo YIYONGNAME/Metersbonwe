@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, a{ margin:0; padding:0; }
+fieldset, img { border:none; }
+img{display: block;}
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+ul, ol { list-style:none;} 
+a{ text-decoration: none;}
+.box{
+	width: 980px;
+	height: 800px;
+	margin: 0 auto;
+}
+.header{
+	display: block;
+	width: 220px;
+	height: 100px;
+	
+	background-image: url(enrollimg/logo.jpg);
+}
+.nav{
+	width: 980px;
+	height:26px;
+	border-bottom: 2px solid #404040;
+	margin-bottom: 10px;
+}
+.nav .navs{
+	line-height: 26px;
+	text-align: center;
+	display: block;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight:800 ;
+	background: #404040;
+	width: 160px;
+	height: 26px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.main{
+	width: 980px;
+	height: 330px;
+	box-sizing: border-box;
+	border: 1px solid #999999;
+}
+.main .mainleft{
+	width: 758px;
+	height: 328px;
+	float: left;
+	padding: 20px 0 30px 15px;
+	box-sizing: border-box;
+}
+.main .mainright{
+	width: 758px;
+	height: 328px;
+	width: 219px;
+	height: 320px;
+	background-image: url(enrollimg/bgowelcometext.png);
+	float: right;
+	
+}
+/*         第一步*/
+.main .maintop{
+	width: 680px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 15px;
+	padding-left: 20px;
+	font-size: 16px;
+	color: #999999;
+	font-weight:100 ;
+	border-bottom:1px #696969 dotted;
+}
+.main strong{
+	width: 120px;
+	height: 30px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	text-align: right;
+	font-size: 14px;
+	line-height: 30px;
+	color: #696969;
+}
+/*用户名*/
+.main .pname{
+	width: 700px;
+	height: 56px;
+	margin-top: 25px;
+	position: relative;
+}
+.main .pname #pname{
+	position: absolute;
+	top: 0px;
+	left: 130px;
+	width: 247px;
+	height: 30px;
+	box-sizing: border-box;
+	
+}
+.main .pname i{
+	font-size: 12px;
+	color: #808080;
+	width: 300px;
+	height: 38px;
+	position: absolute;
+	top: 0px;
+	left: 390px;
+	font-style: normal;
+}
+.main .pname #s1{
+	width: 240px;
+	height: 18px;
+	font-size: 12px;
+	color: red;
+	position:absolute;
+	top: 32px;
+	left: 130px;
+	display: none;
+}
+/*手机号码*/
+.main .mobile{
+	width: 700px;
+	height: 50px;
+	margin-top: 10px;
+	position: relative;
+}
+.main .mobile #figure{
+	position: absolute;
+	top: 0px;
+	left: 130px;
+	width: 247px;
+	height: 30px;
+	box-sizing: border-box;
+}
+.main .mobile i{
+	font-size: 12px;
+	color: #808080;
+	width: 300px;
+	height: 38px;
+	position: absolute;
+	top: 0px;
+	left: 390px;
+	font-style: normal;
+}
+.main .mobile #s2{
+	width: 240px;
+	height: 18px;
+	font-size: 12px;
+	color: red;
+	position:absolute;
+	top: 32px;
+	left: 130px;
+	display: none;
+}
+/*验证码*/
+.main .yzm{
+	width: 700px;
+	height: 52px;
+	margin-top: 10px;
+	position: relative;
+}
+.main .yzm #yzm{
+	position: absolute;
+	top: 0px;
+	left: 130px;
+	width: 137px;
+	height: 30px;
+	box-sizing: border-box;
+}
+.main .yzm #yzm1{
+	position: absolute;
+	top: 0px;
+	left: 280px;
+	width: 110px;
+	height: 30px;
+	border: none;
+	box-sizing: border-box;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+}
+.main .yzm em{
+	position: absolute;
+	top: 0px;
+	left: 400px;
+	font-style: normal;
+	font-size: 12px;
+}
+.main .yzm #s3{
+	width: 240px;
+	height: 18px;
+	font-size: 12px;
+	color: red;
+	position:absolute;
+	top: 32px;
+	left: 130px;
+	display: none;
+}
+/*发送激活码*/
+.mainleft #btn{
+	display: block;
+	width: 150px;
+	height: 34px;
+	background: red;
+	border: 1px solid #696969;
+	box-sizing: border-box;
+	border-radius:5px ;
+	margin-left: 130px;
+	margin-top: 10px;
+	line-height: 34px;
+	font-size:16px ;
+	font-weight: 800;
+	color:#ffffff;
+	text-align: center;
+
+}
+
+
+/*底部文字*/
+.footer{
+	height: 20px;
+	width: 980px;
+	padding-top:19px ;
+	
+}
+.footer a{
+	color: #666666;
+}
+.footer p{
+	line-height: 20px;
+	text-align: center;
+	font-size:12px;
+	
+}
+.footer p i{
+	font-style: normal;
+	margin: 0 5px;
+}
+
+
+
+
+
+
+

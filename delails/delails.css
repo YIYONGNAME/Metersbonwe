@@ -1,0 +1,906 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, a{ margin:0; padding:0; }
+fieldset, img { border:none; }
+img{display: block;}
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+ul, ol { list-style:none;} 
+
+a{text-decoration: none;}
+/*隐藏界面*/
+#pull-down{
+	display: none;
+}
+.box{
+	position: relative;
+	height: 30000px;
+}
+.navtop{
+	height: 50px;
+	margin-top: 10px;
+}
+.navtop a{
+	line-height:50px;
+	font-size: 14px;
+	color: #696969;
+	
+}
+.navtop i{
+	font-size: 12px;
+	color: #696969;
+}
+.mainleft{
+	width: 480px;
+	height: 620px;
+	position: absolute;
+	
+	top:50px;
+	left: 0px;
+}
+
+/*//放大镜*/
+.small{
+	width: 480px;
+	height: 480px;
+}
+.small #mask{
+	width: 287px;
+	height: 287px;
+	position:absolute;
+	background: #FFFDEF;
+	opacity: 0.5;
+	top:0;
+	left:0;
+	display:none;
+}
+.small img{
+	width: 480px;
+	height: 480px;
+	overflow:hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.big{
+	width: 480px;
+	height: 480px;
+	position: absolute;
+	overflow: hidden;
+	z-index: 999;
+	top: 0px;
+	left: 520px;
+	box-sizing: border-box;
+	border: 1px solid #696969;
+	display: none;
+}	
+.big img{
+	width: 800px;
+	height: 800px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+
+
+
+
+
+
+
+.smalllast{
+	width: 480px;
+	height: 80px;
+	margin-top: 15px;
+}
+.smalllast dd{
+	width: 78px;
+	height: 78px;
+	margin-right: 20px;
+	float: left;
+	border: 1px solid #969896;
+}
+.smalllast dd:nth-child(5){
+	margin-right: 0px;
+}
+.small-last{
+	width: 480px;
+	height: 20px;
+	margin-top: 25px;
+	position: relative
+}
+.small-last p{
+	width: 140px;
+	height: 20px;
+	font-size: 16px;
+	color: #696969;
+	
+	
+}
+.small-last a:nth-child(2){
+	width: 50px;
+	height: 20px;
+	margin-left:50px ;
+	position:absolute;
+	top: 0px;
+	left: 150px;
+	
+}
+.small-last a:nth-child(3){
+	width: 50px;
+	height: 20px;
+	margin-left:50px ;
+	position:absolute;
+	top: 0px;
+	left: 270px;
+	color: red;
+}
+
+
+
+
+
+.mainright{
+	width: 670px;
+	height: 582px;
+	position: absolute;
+	top: 50px;
+	right: 0px;
+}
+.mainright-p{
+	width: 670px;
+	height: 24px;
+	margin-bottom: 15px;
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 24px;
+}
+.mainright ul{
+	width: 670px;
+	height: 90px;
+	background: #E9E9E9;
+}
+.mainright ul li:nth-child(1){
+	width: 650px;
+	height:44px;
+	margin-left: 15px;
+	position: relative;
+}
+.mainright ul li b{
+	font-weight: 100;
+	font-size: 14px;
+}
+.mainright ul li strong{
+	font-size:26px;
+	line-height: 44px;
+	color: red;
+}
+.mainright ul li i{
+	font-size: 12px;
+	margin-left: 30px;
+	font-style: normal;
+}
+.mainright ul li del{
+	font-size: 14px;
+}
+.mainright ul li span{
+	display: block;
+	width: 40px;
+	height: 22px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 22px;
+	background: red;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	top: 12px;
+	right: 20px;
+}
+.mainright ul li:nth-child(2){
+	font-size: 12px;
+	padding: 15px 15px 0;
+	width: 640px;
+	height: 16px;
+	line-height: 16px;
+}
+.mainright ul li:nth-child(2) u{
+	font-size: 12px;
+	margin-left: 450px;
+}
+/*///////////////*/
+.mainright-p2{
+	width: 670px;
+	height: 28px;
+	margin: 5px 0;
+}
+.mainright-p2 span{
+	font-size: 14px;
+	line-height: 28px;
+}
+.mainright-p2 b{
+	font-weight: 100;
+	margin: 0 30px;
+	color: #696969;
+}
+.mainright-p2 span i{
+	font-size: 12px;
+	color: red;
+	font-style: normal;
+}
+/*选择颜色*/
+.mainrightconter{
+	width: 670px;
+	height: 206px;
+}
+.mainrightconter p{
+	width: 670px;
+	height: 16px;
+	font-size: 12px;
+}
+.mainrightconter p span{
+	font-size:12px;
+	color: #333333;
+}
+
+
+.mainrightconter dl{
+	width: 670px;
+	height:176px;
+	margin-top: 14px; 
+}
+.mainrightconter dl dd{
+	width: 620px;
+	height: 55px;
+}
+
+.mainrightconter dl dd img{
+	width: 51px;
+	height: 51px;
+	padding: 1px;
+	float: left;
+	border: 1px solid #808080;
+	margin-right: 10px;
+	box-sizing: border-box;
+}
+/*第一张图片上的遮罩层*/
+/*#layer{
+	width:54px;
+	height: 54px;
+	background: #fff;
+	opacity: 0.6;
+}*/
+
+
+
+
+
+/*尺码*/
+.mainrightconter dl .chima{
+	width: 670px;
+	height: 16px;
+	font-size: 12px;
+	margin-top: 20px;
+	position: relative;
+	
+}
+.mainrightconter dl .chima span{
+	line-height: 16px;
+}
+.mainrightconter dl .chima img{
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 0;
+	left:575px;
+}
+.mainrightconter dl .chima span:nth-child(3){
+	display: ;
+	position: absolute;
+	top: 0;
+	left:590px ;
+}
+.mainrightconter dl .chicun{
+	width: 580px;
+	height: 30px;
+	margin-top: 10px;
+}
+.mainrightconter dl .chicun span{
+	display: block;
+	width: 60px;
+	height: 18px;
+	padding: 5px;
+	float: left;
+	border: 1px solid #808080;
+	margin-right: 10px;
+	line-height: 18px;
+	
+}
+
+
+
+
+/*/数量的加减*/
+.mainrightconter dl .goumai{
+	width: 670px;
+	height: 27px;
+	font-size: 12px;
+	line-height: 27px;
+	position: relative;
+	margin-top:20px;
+}
+.mainrightconter dl .goumai .addr{
+	display: block;
+	width: 23px;
+	height: 23px;
+	border: 1px solid #999999;
+	line-height: 23px;
+	text-align: center;
+	position: absolute;
+}
+.mainrightconter dl .goumai .reduce{
+	display: block;
+	width: 23px;
+	height: 23px;
+	border: 1px solid #999999;
+	line-height: 23px;
+	text-align: center;
+	position: absolute;
+}
+.mainrightconter dl .goumai .shuliang{
+	display: block;
+	position: absolute;
+	height: 23px;
+	width: 40px;
+	line-height: 23px;
+	text-align: center;
+	border: 1px solid #999999;
+	top: 2px;
+	left: 112.5px;
+}
+.mainrightconter dl .goumai .addr{
+	top: 2px;
+	left: 80px;
+}
+.mainrightconter dl .goumai .reduce{
+	top: 2px;
+	left: 160px;
+}
+.mainrightconter dl .goumai .kucun{
+	position: absolute;
+	top: 2px;
+	left: 195px;
+}
+/*加入购物车*/
+.mainright .jiaru{
+	display: block;
+	width: 200px;
+	height: 36px;
+	background: #E95B4C;
+	border-radius: 3px;
+	line-height: 36px;
+	text-align: center;
+	margin-top: 20px;
+	color: #ffffff;
+	font-weight: 800;
+	font-size: 16px;
+}
+.mainright .liulan{
+	width: 550px;
+	height: 16px;
+	margin-top: 20px;
+	font-size: 14px;
+	line-height: 16px;
+}
+.mainright .liulan span{
+	margin-left: 10px;
+}
+.mainright .wenxin{
+	display: block;
+	margin-top:20px;
+	font-size: 14px;
+	width: 75px;
+	height: 18px;
+}
+.mainright .rightlast{
+	width: 590px;
+	height: 66px;
+	position: absolute;
+	left: 75px;
+	top: 485px;
+	overflow: hidden;
+}
+.mainright .rightlast dd{
+	width: 295px;
+	height: 18px;
+	margin-bottom: 15px;
+	position: relative;
+	float: left;
+}
+.mainright .rightlast dd em{
+	display: block;
+	background-image:url(detailsimg/dian.png);
+	width: 8px;
+	height: 8px;
+	position: absolute;
+	top: 7px;		
+}
+.mainright .rightlast dd span{
+	font-size:12px ;
+	
+	line-height: 18px;
+	margin-left: 10px;
+}
+/*侧边垂直导航*/
+.leftnav{
+	width: 180px;
+	height: 1393px;
+	position: absolute;
+	
+	top:680px ;
+}
+.leftnav h6{
+	width: 170px;
+	height: 32px;
+	margin-top: 20px;
+	padding-left: 10px;
+	background: #000000;
+	color: #fff;
+	line-height: 32px;
+}
+.leftnav .leftnav22{
+	box-sizing: border-box;
+	border: 1px solid #999999;
+	width: 180px;
+	padding: 0 10px;
+	height: 1333px;
+	
+}
+.leftnav .leftnav22 dl{
+	widows: 160px;
+	height: 265px;
+	float: left;
+}
+.leftnav .leftnav22 dl dt{
+	padding-top: 10px;
+	
+	
+}
+.leftnav .leftnav22 dd:nth-child(2){
+	width: 160px;
+	height: 34px;
+	
+	font-size: 14px;
+	margin-top: 4px;
+	
+}
+
+..leftnav .leftnav22 dd:nth-child(3){
+	width: 160px;
+	height: 17px;
+	margin-left: 10px;
+	font-weight: 800;
+}
+
+/*横向导航*/
+.rightnav{
+	width: 1000px;
+	height: 60px;
+	position: absolute;
+	top: 680px;
+	left: 200px;
+	box-shadow: 0 3px 7px 0 rgba(0,0,0,.16)
+}
+.rightnav a{
+	display: block;
+	width: 196px;
+	height: 60px;
+	float: left;
+	line-height: 60px;
+	text-align: center;
+	color: #000000;	
+	margin-left: 100px;
+}
+.rightnav b {
+	float: left;
+	width: 8px;
+	margin-top: 21px;
+	color: #808080;
+}
+
+/*瀑布流*/
+.falls{
+	width: 1000px;
+	height: 29260px;
+	position: absolute;
+	top: 740px;
+	right: 0;
+	box-sizing: border-box;
+	border: 1px solid #999999;
+	border-top: none;
+	padding-top: 25px;
+}
+.fallstop{
+	width: 740px;
+	height: 310px;
+	margin-left: 150px;
+	margin-top: 15px;
+}
+.fallstop ul{
+	width: 715px;
+	height: 76px;
+	padding-left: 20px;
+	padding-top: 20px;
+	font-size: 12px;
+}
+.fallstop ul li{
+	width: 227px;
+	height: 22px;
+	margin-right: 10px;
+	float: left;
+}
+
+.fallstop p{
+	width: 740px;
+	height: 54px;
+	font-size: 12px;
+}
+.fallstop b{
+	width: 740px;
+	height: 18px;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 100;
+	
+}
+/*//瀑布流*/
+.falls .fallscenter{
+	width: 730px;
+	height: 21877px;
+	margin-left: 150px;
+	background: #00FFFF;
+}
+.falls .fallscenter img{
+	/*float: left;*/
+}
+.falls .yangse{
+	margin-left: 150px;
+}
+.falls .fallsfooter{
+	width: 740px;
+	height:580px;
+	padding-left: 10px;
+	margin-top: 10px;
+	margin-left: 150px;
+}
+.falls .fallsfooter dd{
+	width: 160px;
+	height: 190px;
+	margin-right: 22px;
+	float: left;
+	
+}
+.falls .fallsfooter dd img{
+	width: 160px;
+	height: 160px;
+}
+.falls .fallsfooter dd h5{
+	width: 160px;
+	height: 20px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: 100;
+	text-align: center;
+}
+.falls .img1{
+	margin-left: 110px;
+}
+.falls .img2{
+	margin-left: 110px;
+}
+.discuss{
+	width: 948px;
+	height: 3543px;
+	margin-left: 26px;
+	margin-top: 40px;
+	box-sizing: border-box;
+	border: 1px solid #999999;
+}
+.discuss .span1{
+	display: block;
+	width: 927px;
+	height: 21px;
+	padding: 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-bottom: 1px #999999 solid;
+}
+.discuss .discusstop{
+	width: 947px;
+	height: 54px;
+	padding:20px 0 ;
+	border-bottom:1px #696969 dotted ;
+}
+.discuss .discusstop li{
+	width: 295px;
+	height: 54px;
+	border-right: 1px solid #999999;
+	margin-left: 20px;
+	float: left;
+}
+.discuss .discusstop li:nth-child(1){
+	font-size: 16px;
+	line-height: 54px;
+	
+}
+.discuss .discusstop li:nth-child(1) b{
+	font-size: 30px;
+	margin: 0 4px;
+	color: red;
+}
+.discuss .discusstop li:nth-child(1) i{
+	font-size: 18px;
+	margin: 0 3px;
+	font-style: normal;
+	color: #696969;
+}
+.discuss .discusstop li:nth-child(2) dl{
+	width: 295px;
+	height: 54px;
+}
+.discuss .discusstop li:nth-child(2) dl p{
+	font-size: 12px;
+	font-weight: 700;
+	margin-top: 5px;
+	height: 16px;
+}
+.discuss .discusstop li:nth-child(2) dl dd{
+	width: 120px;
+	height: 15px;
+	margin-top: 11px;
+	background: url(detailsimg/mbshop_appicon_01.png) no-repeat 0 -245px;
+}
+
+.discuss .discusstop li:nth-child(3){
+	border: none;
+}
+.discuss .discusstop li:nth-child(3) dl{
+	width: 295px;
+	height: 54px;
+}
+.discuss .discusstop li:nth-child(3) dl p{
+	font-size: 12px;
+	font-weight: 700;
+	margin-top: 5px;
+	height: 16px;
+}
+.discuss .discusstop li:nth-child(3) dl dd{
+	font-size: 12px;
+	margin-top: 11px;
+	color: #696969;
+}
+.discuss .discusstop li:nth-child(3) dl dd b{
+	color:red;
+	margin: 0 3px;
+}
+/*      */
+.discuss .discuss-p{
+	width: 878px;
+	height: 40px;
+	margin:20px 10px 20px 10px  ;
+	background: #f5f5f5;
+	font-size: 12px;
+	color: #969896;
+	line-height: 40px;
+	padding-left: 50px;
+}
+.discuss .discuss-p i{
+	font-style: normal;
+	margin: 0 30px;
+}
+.discuss .span2{
+	display: block;
+	width: 927px;
+	height: 21px;
+	padding: 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-top: 1px #999999 solid;
+	border-bottom: 1px #999999 solid;
+}
+/*   fsdfs*/
+.discuss .discussmain{
+	width: 928px;
+	height: 3267px;
+	margin-left:10px;
+	margin-right:0px;
+	box-sizing: border-box;
+}
+.discuss .discussmain dl{
+	margin-top:15px;
+	width: 928px;
+	height: 149px;
+	overflow: hidden;
+}
+.discuss .discussmain dl dt{
+	width: 130px;
+	height: 108px;
+	float: left;
+}
+.discuss .discussmain dl dt img{
+	width: 75px;
+	height: 75px;
+	border: 4px solid #f5f5f5;
+	margin-left: 10px;
+}
+.discuss .discussmain dl dt p{
+	width: 83px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	font-size: 14px;
+	margin-left: 10px;
+	margin-top: 10px;
+	
+}
+
+
+.discuss .discussmain dl dd{
+	width: 798px;
+	height: 149px;
+	float: left;
+	background: #f5f5f5;
+}
+.discuss .discussmain dl dd ul{ 
+	width: 778px;
+	height: 149px;
+	margin-left:10px ;
+	overflow: hidden;
+	
+}
+.discuss .discussmain dl dd ul li:nth-child(1){
+	width: 778px;
+	height: 50px;
+	
+	margin-bottom: 15px;
+	font-size: 12px;
+	position: relative;	
+}
+.discuss .discussmain dl dd ul li:nth-child(1) b{
+	color:orangered;
+	line-height:50px;
+}
+.discuss .discussmain dl dd ul li:nth-child(1) i{
+	width: 140px;
+	height:20px;
+	position: absolute;
+	top: 15px;
+	left: 80px;
+	background: url(detailsimg/mbshop_appicon_01.png) no-repeat 0 -118px;
+}
+.discuss .discussmain dl dd ul li:nth-child(1) span{
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	
+}
+
+.discuss .discussmain dl dd ul li:nth-child(2){
+	width: 778px;
+	height: 16px;
+	margin-bottom: 15px;
+	
+	font-size: 12px;
+		
+}
+.discuss .discussmain dl dd ul li:nth-child(3){
+	width: 758px;
+	height: 38px;
+	background: #fff;
+	border: 1px solid #808080;
+	font-size: 12px;
+	line-height: 38px;
+	padding-left: 15px;
+}
+/*最下面的备注*/
+.fallsbottom{
+	width: 948px;
+	height: 742px;
+	margin-top: 50px;
+	margin-left: 26px;
+	
+}
+.fallsbottom h5{
+	font-size: 12px;
+	width: 948px;
+	height: 20px;
+	padding-bottom: 10px;
+}
+.fallsbottom p{
+	font-size: 12px;
+	color: #696969;
+	width: 948px;
+	height: 43px;
+	padding-top: 15px;
+	border-top: 1px #696969 dotted;
+}
+.fallsbottom p span{
+	margin-top: 5px;
+	display: block;
+	height: 14px;
+}
+
+/*悬浮窗口*/
+.suspeed{
+	width: 1200px;
+	height: 60px;
+	background: #fff;
+	position:fixed;
+	top: 0px;
+	left: 314px;
+	display: none;
+}
+.suspeed .suspeedleft{
+	width: 320px;
+	height: 60px;
+	float: left;
+	position: relative;
+}
+.suspeed .suspeedleft img{
+	width: 40px;
+	height: 40px;
+	border: 1px solod #696969;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.suspeed .suspeedleft h4{
+	position: absolute;
+	height:18px;
+	width: 260px;
+	position: absolute;
+	font-size: 12px;
+	font-weight: 100;
+	top: 10px;
+	left: 80px;
+}
+.suspeed .suspeedleft p{
+	position: absolute;
+	top: 30px;
+	left: 80px;
+	font-size: 16px;
+	font-weight: 800;
+}
+
+
+
+.suspeed li{
+	width: 196px;
+	height: 60px;
+	float:left;
+}
+.suspeed li a{
+	
+	line-height: 60px;
+	margin-left: 60px;
+	font-size: 14px;
+	
+}
+.suspeed i{
+	font-style: normal;
+	float: left;
+	line-height: 60px;
+	color: #696969;
+}
+.suspeed .suspeedright{
+	display: block;
+	width: 200px;
+	height: 60px;
+	float: right;
+	background: #FF0000;
+	color: #F5F5F5;
+	line-height: 60px;
+	text-align: center;
+}
+

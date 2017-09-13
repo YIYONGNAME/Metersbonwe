@@ -1,0 +1,232 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, a{ margin:0; padding:0; }
+fieldset, img { border:none; }
+img{display: block;}
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+ul, ol { list-style:none;} 
+a{ text-decoration: none;}
+.box{
+	width: 980px;
+	height: 800px;
+	margin: 0 auto;
+}
+.header{
+	display: block;
+	width: 220px;
+	height: 100px;
+	
+	background-image: url(enrollimg/logo.jpg);
+}
+.nav{
+	width: 980px;
+	height:26px;
+	border-bottom: 2px solid #404040;
+	margin-bottom: 10px;
+}
+.nav .navs{
+	line-height: 26px;
+	text-align: center;
+	display: block;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight:800 ;
+	background: #404040;
+	width: 160px;
+	height: 26px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.main{
+	width: 980px;
+	height: 450px;
+	box-sizing: border-box;
+	border: 1px solid #999999;
+}
+.main .mainleft{
+	width: 758px;
+	height: 328px;
+	float: left;
+	padding: 20px 0 30px 15px;
+	box-sizing: border-box;
+}
+.main .mainright{
+	width: 758px;
+	height: 328px;
+	width: 219px;
+	height: 320px;
+	background-image: url(enrollimg/bgowelcometext.png);
+	float: right;
+	
+}
+/*         第一步*/
+.mainleft .maintop{
+	width: 680px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 15px;
+	padding-left: 20px;
+	font-size: 16px;
+	color: #999999;
+	font-weight:100 ;
+	border-bottom:1px #696969 dotted;
+}
+.mainleft .top{
+	width:600px;
+	height: 50px;
+	margin-left: 70px;
+	margin-top: 40px;
+	overflow: hidden;
+	
+}
+.mainleft .top dt{
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	float: left;
+	background: url(enrollimg/iconSkin.png) no-repeat 0px -550px;
+}
+
+.mainleft .top dd{
+	width: 500px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	color: tomato;
+	float: left;
+}
+.mainleft .p1{
+	/*display: block;*/
+	width: 600px;
+	height: 20px;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-left: 130px;
+	
+}
+.mainleft .p1 .span1{
+	margin: 0 8px;
+	color: red;
+}
+
+
+/*最下面的按钮*/
+.main .last{
+	width: 600px;
+	height: 60px;
+	margin-left: 60px;
+	margin-top:25px;
+	border-bottom: 1px dotted #696969;
+	position: relative;
+}
+
+.mainleft .last #btn{
+	display: block;
+	width: 150px;
+	height: 30px;
+	background: red;
+	border: 1px solid #696969;
+	box-sizing: border-box;
+	border-radius:5px ;
+	position: absolute;
+	left: 70px;
+	line-height: 30px;
+	font-size:16px ;
+	font-weight: 800;
+	color:#ffffff;
+	text-align: center;
+
+}
+
+.mainleft .lowest{
+	width: 600px;
+	height:70px;
+	margin-left:130px ;
+	margin-top: 60px;
+	overflow: hidden;
+	
+}
+.mainleft .lowest h5{
+	font-size: 12px;
+	line-height: 20px;
+	margin-bottom: 5px;
+	float: left;
+}
+.mainleft .lowest dt{
+	font-size: 14px;
+	color: #666666;
+	line-height: 20px;
+	margin-bottom: 5px;
+	float: left;
+}
+.mainleft .lowest dd{
+	width: 150px;
+	height: 20px;
+	float: left;
+}
+.mainleft .lowest dd .span2{
+	display: block;
+	float: left;
+	width: 25px;
+	height: 20px;
+	background: url(enrollimg/iconSkin.png) no-repeat 0px -1550px;
+	color: coral;
+}
+
+.mainleft .lowest dd .span3{
+	display: block;
+	float: left;
+	width: 25px;
+	height: 20px;
+	background: url(enrollimg/iconSkin.png) no-repeat 0px -1500px;
+	color: cornflowerblue;
+}
+.mainleft .lowest dd a{
+	float: left;
+	font-size: 12px;
+	line-height: 20px;
+	color: tomato;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*底部文字*/
+.footer{
+	height: 20px;
+	width: 980px;
+	padding-top:19px ;
+	
+}
+.footer a{
+	color: #666666;
+}
+.footer p{
+	line-height: 20px;
+	text-align: center;
+	font-size:12px;
+	
+}
+.footer p i{
+	font-style: normal;
+	margin: 0 5px;
+}
+
+
+
+
+
+
+
